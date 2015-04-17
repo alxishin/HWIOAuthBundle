@@ -451,6 +451,7 @@ connect:
 http_client:
     timeout:       5
     verify_peer:   true
+    verify_host:   2
     ignore_errors: true
     max_redirects: 5
 

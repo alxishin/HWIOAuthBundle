@@ -366,6 +366,7 @@ class Configuration implements ConfigurationInterface
                     ->children()
                         ->scalarNode('timeout')->defaultValue(5)->cannotBeEmpty()->end()
                         ->booleanNode('verify_peer')->defaultTrue()->end()
+                        ->booleanNode('verify_host')->defaultValue(2)->end()
                         ->scalarNode('max_redirects')->defaultValue(5)->cannotBeEmpty()->end()
                         ->booleanNode('ignore_errors')->defaultTrue()->end()
                         ->scalarNode('proxy')->end()

@@ -12,6 +12,7 @@ hwi_oauth:
     http_client:
         timeout:       10 # Time in seconds, after library will shutdown request, by default: 5
         verify_peer:   false # Setting allowing you to turn off SSL verification, by default: true
+        verify_host:   false # Setting allowing you to turn off SSL verification for host, by default: 2
         ignore_errors: false # Setting allowing you to easier debug request errors, by default: true
         max_redirects: 1 # Number of HTTP redirection request after which library will shutdown request,
                          # by default: 5
