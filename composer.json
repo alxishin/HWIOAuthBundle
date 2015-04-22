@@ -1,5 +1,5 @@
 {
-    "name":        "hwi/oauth-bundle",
+    "name":        "slavenin/oauth-bundle",
     "type":        "symfony-bundle",
     "description": "Support for authenticating users using both OAuth1.0a and OAuth2 in Symfony2.",
     "keywords":    [
@@ -46,7 +46,7 @@
         "yandex",
         "37signals"
     ],
-    "homepage":    "http://github.com/hwi/HWIOAuthBundle",
+    "homepage":    "https://github.com/Slavenin/HWIOAuthBundle",
     "license":     "MIT",
 
     "authors": [
@@ -73,7 +73,7 @@
         "symfony/framework-bundle":     "~2.3",
         "symfony/security-bundle":      "~2.1",
         "symfony/options-resolver":     "~2.1",
-        "kriswallsmith/buzz":           "~0.7",
+        "slavenin/buzz":           "~0.7",
         "symfony/yaml": "~2.3"
     },
 
