@@ -73,7 +73,7 @@
         "symfony/framework-bundle":     "~2.3",
         "symfony/security-bundle":      "~2.1",
         "symfony/options-resolver":     "~2.1",
-        "slavenin/buzz":           "dev-master",
+        "slavenin/buzz":           "~0.7.*@dev",
         "symfony/yaml": "~2.3"
     },
 
